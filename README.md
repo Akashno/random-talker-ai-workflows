@@ -133,7 +133,7 @@ Most workflows here are files for **[Claude Code](https://claude.com/claude-code
 
 **What it does:** gets ChatGPT, Perplexity and Google's AI answers to mention and link to your site. For Random Talker, ChatGPT now sends more visitors than Google search.
 
-**What you need:** your site, Google Search Console, Bing Webmaster Tools, and optionally [Axpecto](https://axpecto.com) and [claude-seo](https://github.com/AgriciDaniel/claude-seo).
+**What you need:** your site, Google Search Console, Bing Webmaster Tools,  [Axpecto](https://axpecto.com) and [claude-seo](https://github.com/AgriciDaniel/claude-seo).
 
 **Steps:**
 1. Check that AI crawlers can read your site. Run `curl -I -A "OAI-SearchBot/1.0" https://yoursite.com` and make sure it returns `200`.
