@@ -27,7 +27,7 @@ Then check the safeguards 1.2 requires, separately for text, images and live voi
 
 - Filtering objectionable content: `src/utils/profanity.ts`, `src/services/call/chatImages.ts`. Live voice has no filter before it is heard, so say so if nothing covers it.
 - Reporting: `src/app/components/modals/ReportModal.tsx`, plus whether reports reach someone who responds in time.
-- Blocking: the user-facing control and whether the block really stops re-matching.
+- Blocking: the user-facing control and what a block does.
 - Published contact details: reachable inside the app.
 
 ### 2. Age rating

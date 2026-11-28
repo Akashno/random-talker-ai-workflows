@@ -210,7 +210,7 @@ AI visitors from comparison pages are shopping around: 11% of ChatGPT visitors t
 ### P2-1. Measure AI traffic properly. Evidence: Data
 - GA4: the "AI Assistant" channel (chatgpt.com, perplexity.ai…) → report **landing page × conversion event** (here `partner_connected`). Track conversions, not just sessions.
 - Register the custom dimensions (`cta_position`, `article_slug`) in GA4 → Admin → Custom definitions.
-- Exclude your own traffic (`plugins/internal-traffic.client.js` turns GA4 off in any browser holding an admin token).
+- Exclude your own traffic (turn GA4 off in your own browsers).
 - GSC: split **brand vs non-brand** at query × page level. Page-level positions look good only because of brand-search sitelinks.
 - Scripts used: `claude-seo/scripts/gsc_query.py` and the GA4 scripts (venv and OAuth described in the `seo-data-access` note).
 

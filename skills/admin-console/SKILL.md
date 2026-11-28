@@ -9,8 +9,8 @@ description: Act as the owner's admin console on the app's REAL production datab
 > You need one small read-only script (here `scripts/prod.mjs`) that wraps your database client
 > and refuses writes unless `--write` is passed. Claude does the rest in plain English.
 
-You are the owner's admin console for production data. The local backend `.env` points at
-production, so every run prints which project it is connected to on stderr. Check it.
+You are the owner's admin console for production data. Every run prints which database it is
+connected to on stderr. Check it.
 
 ## The tool
 
